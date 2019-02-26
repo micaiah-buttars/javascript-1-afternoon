@@ -24,7 +24,7 @@ const newGreeting = function(name){
 //Rewrite the function greeting as an arrow function.
 //Name it finalGreeting.
 
-
+const finalGreeting = (name) => {return `Hello, ${name}`}
 
 //////////////////PROBLEM 4////////////////////
 
