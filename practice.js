@@ -31,7 +31,7 @@ const finalGreeting = (name) => {return `Hello, ${name}`}
 //Create an array called groceries with the values
 //"apples", "milk", "eggs", "bread"
 
-//Code Here
+const groceries = ["apples", "milk", "eggs", "bread"]
 
 //Write a function called doubleCheck that takes in an array
 //as a parameter.
@@ -39,7 +39,13 @@ const finalGreeting = (name) => {return `Hello, ${name}`}
 //If the array does not contain "chocolate", add "chocolate".
 //doubleCheck should return the array.
 
-//Code Here
+function doubleCheck(groceries){
+  if(groceries != "chocolate"){
+    groceries.push("chocolate")
+  }
+    return groceries
+  
+}
 
 //////////////////PROBLEM 5////////////////////
 
