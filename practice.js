@@ -54,12 +54,22 @@ function doubleCheck(groceries){
 //name (a string), color: (a string), age (a number),
 //and goodBoy (a boolean).
 
-//Code Here
+const dog =
+{
+  name: "Byark",
+  color: "dog colored",
+  age: 2,
+  goodBoy: true,
+  bark: function(){
+    return `Woof woof`
+  }
+}
+
 
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
-//Code Here
+const devMountainClassPet = dog.name
 
 //Add a method to dog called bark.
 //The value of bark should be a function that returns the string "Woof woof".
@@ -68,7 +78,7 @@ function doubleCheck(groceries){
 
 //Store the result of invoking the bark method in a variable called ruff.
 
-//Code Here
+const ruff = dog.bark()
 
 //////////////////PROBLEM 6////////////////////
 
